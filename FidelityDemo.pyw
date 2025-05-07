@@ -12,6 +12,8 @@ User_id, user_secret can be found via other api call. API available on https://d
 API gets will fail by default! User_id and user secret to be entered manually.
 For on demand updates, will need to use manual refresh for $0.05 per call: 
 https://docs.snaptrade.com/reference/Connections/Connections_refreshBrokerageAuthorization
+https://api.snaptrade.com/api/v1/accounts/{accountId}/recentOrders (realtime endpoint for last 24 hours orders)
+
 """
 update = datetime.time(16, 0)
 
