@@ -22,6 +22,7 @@ event_schedule = sched.scheduler(time.time, time.sleep)
 def write_active_tables(user_id, user_secret, event_schedule):
     """
     Writes positions for all connected accounts to xls
+    TODO: fine tune params in active table
     Params: 
         - user_id: unique id for account
         - user_secret: unique key generated as response when user_id generated
